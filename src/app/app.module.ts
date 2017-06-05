@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ViewportService } from './services/viewport.service';
+import { SubComponent } from './sub/sub.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SubComponent
   ],
   imports: [
     BrowserModule,
